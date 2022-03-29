@@ -19,16 +19,17 @@ function (person, petName){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
-
+| Input  | Output |
+| -----  | ------ |
+|"Steve" | undefined | 
+| "Ein"  |  {dog.name : "Ein"}    | 
+|"Clancy"|  {dog.name : "Clancy"} | 
+| "Fido" |  {dog.name : "Fido" }  | 
+| "Kyle" | undefined |
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>The function compares the name provided within the object and if the dog.name is equal to petName then the variable dog is returned. Otherwise, it is undefined since there is no else statement to return a value.</td>
   </tr>
 </table>
 
