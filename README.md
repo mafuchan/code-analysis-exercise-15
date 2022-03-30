@@ -21,15 +21,15 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input  | Output |
 | -----  | ------ |
-|"Steve" | undefined | 
-| "Ein"  |  {dog.name : "Ein"}    | 
-|"Clancy"|  {dog.name : "Clancy"} | 
-| "Fido" |  {dog.name : "Fido" }  | 
-| "Kyle" | undefined |
+|{dogs: [{name: "Steve"}]}, "Steve" | undefined | 
+|{dogs: [{name: "Ein"}]}, "Ein" |  {name : "Ein"}    | 
+|{dogs: [{name: "Clancy"}]}, "Clancy" |  {name : "Clancy"} | 
+|{dogs: [{name: "Fido"}]}, "Fido" |  {name : "Fido" }  | 
+|{dogs: [{name: "Kyle"}]}, "Kyle" | undefined |
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>The function compares the name provided within the object and if the dog.name is equal to petName then the variable dog is returned. Otherwise, it is undefined since there is no else statement to return a value.</td>
+    <td>The function compares the name provided within the array and if the person has a name that is equal to the dog, which then the dog's name is returned. Otherwise, it is undefined since there is no else statement to return a value.</td>
   </tr>
 </table>
 
